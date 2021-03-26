@@ -31,7 +31,7 @@ nav {
 }
 
 .title-hero p {
-    font-size: 18px ;
+    font-size: 28px ;
     margin: 10px auto ;
 }
 
@@ -111,6 +111,10 @@ footer {
         font-size: 20px ;
     }
 
+    .title-hero p {
+        font-size: 24px ;
+    }
+
 }
 
 @media only screen and (max-width : 600px ){
@@ -135,3 +139,13 @@ footer {
     }
 
 }
+
+#typewriter::after {
+    content: "|";
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
